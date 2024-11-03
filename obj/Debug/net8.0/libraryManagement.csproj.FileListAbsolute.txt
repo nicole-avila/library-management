@@ -1,0 +1,14 @@
+/Users/nicoleavila/Documents/SYSTEMUTVECKLING/inlämningsuppgift/libraryManagement/bin/Debug/net8.0/libraryManagement
+/Users/nicoleavila/Documents/SYSTEMUTVECKLING/inlämningsuppgift/libraryManagement/bin/Debug/net8.0/libraryManagement.deps.json
+/Users/nicoleavila/Documents/SYSTEMUTVECKLING/inlämningsuppgift/libraryManagement/bin/Debug/net8.0/libraryManagement.runtimeconfig.json
+/Users/nicoleavila/Documents/SYSTEMUTVECKLING/inlämningsuppgift/libraryManagement/bin/Debug/net8.0/libraryManagement.dll
+/Users/nicoleavila/Documents/SYSTEMUTVECKLING/inlämningsuppgift/libraryManagement/bin/Debug/net8.0/libraryManagement.pdb
+/Users/nicoleavila/Documents/SYSTEMUTVECKLING/inlämningsuppgift/libraryManagement/obj/Debug/net8.0/libraryManagement.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nicoleavila/Documents/SYSTEMUTVECKLING/inlämningsuppgift/libraryManagement/obj/Debug/net8.0/libraryManagement.AssemblyInfoInputs.cache
+/Users/nicoleavila/Documents/SYSTEMUTVECKLING/inlämningsuppgift/libraryManagement/obj/Debug/net8.0/libraryManagement.AssemblyInfo.cs
+/Users/nicoleavila/Documents/SYSTEMUTVECKLING/inlämningsuppgift/libraryManagement/obj/Debug/net8.0/libraryManagement.csproj.CoreCompileInputs.cache
+/Users/nicoleavila/Documents/SYSTEMUTVECKLING/inlämningsuppgift/libraryManagement/obj/Debug/net8.0/libraryManagement.dll
+/Users/nicoleavila/Documents/SYSTEMUTVECKLING/inlämningsuppgift/libraryManagement/obj/Debug/net8.0/refint/libraryManagement.dll
+/Users/nicoleavila/Documents/SYSTEMUTVECKLING/inlämningsuppgift/libraryManagement/obj/Debug/net8.0/libraryManagement.pdb
+/Users/nicoleavila/Documents/SYSTEMUTVECKLING/inlämningsuppgift/libraryManagement/obj/Debug/net8.0/libraryManagement.genruntimeconfig.cache
+/Users/nicoleavila/Documents/SYSTEMUTVECKLING/inlämningsuppgift/libraryManagement/obj/Debug/net8.0/ref/libraryManagement.dll
