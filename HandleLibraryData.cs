@@ -11,34 +11,31 @@ namespace libraryManagement
         [JsonPropertyName("Authors")]
         public List <Author> AllAuthors { get; set; } = new List<Author>();
 
-        
-        
-        public const string FileName = "LibraryData.json";
+        public const string data = "LibraryData.json";
 
-        // funktion för att ladda biblioteksdata från en JSON-fil
-        public static HandleLibraryData LoadFromFile()
+        // funktion för att ladda upp biblioteksdata från en JSON-fil
+        public static HandleLibraryData LoadData()
         {   
             // om filen finns
-            if (File.Exists(FileName))
+            if (File.Exists(data))
             {   
-                // läser in allt från filen
-                string jsonString = File.ReadAllText(FileName);
-                // deserialiserar JSON-strängen till ett HandleLibraryData-objekt
-                return JsonSerializer.Deserialize<HandleLibraryData>(jsonString) ?? new HandleLibraryData();
+            // läser in allt från filen
+            string jsonString = File.ReadAllText(data);
+            // deserialiserar JSON-strängen till ett HandleLibraryData-objekt
+            return JsonSerializer.Deserialize<HandleLibraryData>(jsonString) ?? new HandleLibraryData();
             }
             // om filen inte finns, returnera ett nytt HandleLibraryData-objekt
             return new HandleLibraryData();
         }
 
         // funktion för att spara biblioteksdata till en JSON-fil
-        public void SaveToFile()
+        public void SaveData()
         {
             // serialiserar objektet till en JSON-sträng
             string jsonString = JsonSerializer.Serialize(this, new JsonSerializerOptions { WriteIndented = true });
             // skriver JSON-strängen till filen
-            File.WriteAllText(FileName, jsonString);
+            File.WriteAllText(data, jsonString);
         }
-
-    } // End of HandleLibraryData class
+    }
 }
 
