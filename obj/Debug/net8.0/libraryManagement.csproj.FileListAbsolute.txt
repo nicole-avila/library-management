@@ -12,3 +12,4 @@
 /Users/nicoleavila/Documents/SYSTEMUTVECKLING/inlämningsuppgift/libraryManagement/obj/Debug/net8.0/libraryManagement.pdb
 /Users/nicoleavila/Documents/SYSTEMUTVECKLING/inlämningsuppgift/libraryManagement/obj/Debug/net8.0/libraryManagement.genruntimeconfig.cache
 /Users/nicoleavila/Documents/SYSTEMUTVECKLING/inlämningsuppgift/libraryManagement/obj/Debug/net8.0/ref/libraryManagement.dll
+/Users/nicoleavila/Documents/SYSTEMUTVECKLING/inlämningsuppgift/libraryManagement/obj/Debug/net8.0/libraryManagement.sourcelink.json
