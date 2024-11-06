@@ -150,10 +150,19 @@
       ]
     },
     {
-      "Id": 11,
+      "Id": 12,
+      "Title": "Askungen",
+      "Author": "Celine Dion",
+      "Genre": "Disney Barnbok",
+      "PublicationYear": 1988,
+      "Isbn": "2345",
+      "Reviews": []
+    },
+    {
+      "Id": 12,
       "Title": "Kalle Anka",
       "Author": "Nicole Avila",
-      "Genre": "Disney",
+      "Genre": "Disney Barnbok",
       "PublicationYear": 1988,
       "Isbn": "1234",
       "Reviews": []
