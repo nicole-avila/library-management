@@ -1,18 +1,8 @@
 namespace libraryManagement
 {
-    // In this class I have created a Library class that contains a list of books and authors. for each of these lists, I have created methods to add, remove, search, and sort the items in the list. I have also created methods to update the details of a book or author.
-    // The Library class contains the following methods:
-    // AddBook: Adds a new book to the list of books.
-    // RemoveBook: Removes a book from the list of books based on the book ID.
-    // SearchBooks: Searches for books in the list based on a search term.
-    // GetBooksSortedByYear: Returns a list of books sorted by publication year.
-    // AddAuthor: Adds a new author to the list of authors.
-    // RemoveAuthor: Removes an author from the list of authors based on the author ID.
-    // SearchAuthors: Searches for authors in the list based on a search term.
-    // GetAuthorsSortedByName: Returns a list of authors sorted by name.
-    // UpdateBook: Updates the details of a book in the list of books.
-    // UpdateAuthor: Updates the details of an author in the list of authors.
-
+    // In this class I have created a Library class that contains a list of books and authors. 
+    //for each of these lists, I have created methods to add, remove, search, and filter the items in the list. 
+    //I have also created methods to update the details of a book or author.
     public class Library
     {
         public List<Book> Books { get; set; } = new List<Book>();
@@ -43,9 +33,9 @@ namespace libraryManagement
         Books.RemoveAll(bookItem => bookItem.Id == id);
     }
 
-    public List<Book> GetBooksSortedByYear()
+    public List<Book> FilterBooksByYear(int year)
     {
-        return Books.OrderBy(bookItem => bookItem.PublicationYear).ToList();
+        return Books.Where(bookItem => bookItem.PublicationYear == year).ToList();
     }
 
     public List<Book> SearchBooks(string searchTerm)
@@ -55,6 +45,7 @@ namespace libraryManagement
             bookItem.Author.Contains(searchTerm, StringComparison.OrdinalIgnoreCase)
         ).ToList();
     }
+
 
     // ALL AUTHORS METHODS
     public void AddAuthor(Author author)
@@ -78,7 +69,7 @@ namespace libraryManagement
         Authors.RemoveAll(authorItem => authorItem.Id == id);
     }
 
-    public List<Author> GetAuthorsSortedByName()
+    public List<Author> FilterAuthorsByName()
     {
         return Authors.OrderBy(authorItem => authorItem.Name).ToList();
 
