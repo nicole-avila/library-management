@@ -5,134 +5,81 @@
       "Title": "The Great Gatsby",
       "Author": "F. Scott Fitzgerald",
       "Genre": "Fiction",
-      "PublicationYear": 0,
-      "Isbn": null,
-      "Reviews": [
-        4,
-        5,
-        5,
-        4,
-        5
-      ]
+      "PublicationYear": 1988,
+      "Isbn": "1111",
+      "Reviews": [4, 5, 5, 4, 5]
     },
     {
       "Id": 2,
       "Title": "To Kill a Mockingbird",
       "Author": "Harper Lee",
       "Genre": "Fiction",
-      "PublicationYear": 0,
-      "Isbn": null,
-      "Reviews": [
-        5,
-        4,
-        5,
-        4,
-        5
-      ]
+      "PublicationYear": 1989,
+      "Isbn": "2222",
+      "Reviews": [5, 4, 5, 4, 5]
     },
     {
       "Id": 3,
       "Title": "1984",
       "Author": "George Orwell",
       "Genre": "Science Fiction",
-      "PublicationYear": 0,
-      "Isbn": null,
-      "Reviews": [
-        4,
-        5,
-        4,
-        3,
-        5
-      ]
+      "PublicationYear": 1984,
+      "Isbn": "3333",
+      "Reviews": [4, 5, 4, 3, 5]
     },
     {
       "Id": 4,
       "Title": "One Hundred Years of Solitude",
-      "Author": "Gabriel Garc\u00EDa M\u00E1rquez",
+      "Author": "Gabriel Garcia Marquez",
       "Genre": "Fiction",
-      "PublicationYear": 0,
-      "Isbn": null,
-      "Reviews": [
-        5,
-        5,
-        4,
-        5,
-        5
-      ]
+      "PublicationYear": 1967,
+      "Isbn": "4444",
+      "Reviews": [5, 5, 4, 5, 5]
     },
     {
       "Id": 5,
       "Title": "Pride and Prejudice",
       "Author": "Jane Austen",
       "Genre": "Romance",
-      "PublicationYear": 0,
-      "Isbn": null,
-      "Reviews": [
-        5,
-        4,
-        5,
-        5,
-        4
-      ]
+      "PublicationYear": 1813,
+      "Isbn": "5555",
+      "Reviews": [5, 4, 5, 5, 4]
     },
     {
       "Id": 6,
       "Title": "The Lord of the Rings",
       "Author": "J.R.R. Tolkien",
       "Genre": "Fantasy",
-      "PublicationYear": 0,
-      "Isbn": null,
-      "Reviews": [
-        5,
-        5,
-        5,
-        5,
-        5
-      ]
+      "PublicationYear": 1954,
+      "Isbn": "6666",
+      "Reviews": [5, 5, 5, 5, 5]
     },
     {
       "Id": 7,
       "Title": "The Catcher in the Rye",
       "Author": "J.D. Salinger",
       "Genre": "Fiction",
-      "PublicationYear": 0,
-      "Isbn": null,
-      "Reviews": [
-        3,
-        4,
-        5,
-        4,
-        3
-      ]
+      "PublicationYear": 1951,
+      "Isbn": "7777",
+      "Reviews": [3, 4, 5, 4, 3]
     },
     {
       "Id": 8,
       "Title": "The Secret",
       "Author": "Rhonda Byrne",
       "Genre": "Psychology",
-      "PublicationYear": 0,
-      "Isbn": null,
-      "Reviews": [
-        5,
-        4,
-        5,
-        2
-      ]
+      "PublicationYear": 1988,
+      "Isbn": "8888",
+      "Reviews": [5, 4, 5, 2]
     },
     {
       "Id": 9,
       "Title": "And Then There Were None",
       "Author": "Agatha Christie",
       "Genre": "Mystery",
-      "PublicationYear": 0,
-      "Isbn": null,
-      "Reviews": [
-        4,
-        4,
-        5,
-        5,
-        4
-      ]
+      "PublicationYear": 1939,
+      "Isbn": "9999",
+      "Reviews": [4, 4, 5, 5, 4]
     },
     {
       "Id": 10,
@@ -140,14 +87,8 @@
       "Author": "Aldous Huxley",
       "Genre": "Science Fiction",
       "PublicationYear": 0,
-      "Isbn": null,
-      "Reviews": [
-        4,
-        5,
-        4,
-        4,
-        4
-      ]
+      "Isbn": "1010",
+      "Reviews": [4, 5, 4, 4, 4]
     },
     {
       "Id": 13,
@@ -163,62 +104,52 @@
     {
       "Id": 1,
       "Name": "F. Scott Fitzgerald",
-      "Country": null,
-      "Books": []
+      "Country": "USA"
     },
     {
       "Id": 2,
       "Name": "Harper Lee",
-      "Country": null,
-      "Books": []
+      "Country": "USA"
     },
     {
       "Id": 3,
       "Name": "George Orwell",
-      "Country": null,
-      "Books": []
+      "Country": "USA"
     },
     {
       "Id": 4,
-      "Name": "Gabriel Garc\u00EDa M\u00E1rquez",
-      "Country": null,
-      "Books": []
+      "Name": "Gabriel Garcia Marquez",
+      "Country": "USA"
     },
     {
       "Id": 5,
       "Name": "Jane Austen",
-      "Country": null,
-      "Books": []
+      "Country": "USA"
     },
     {
       "Id": 6,
       "Name": "J.R.R. Tolkien",
-      "Country": null,
-      "Books": []
+      "Country": "USA"
     },
     {
       "Id": 7,
       "Name": "J.D. Salinger",
-      "Country": null,
-      "Books": []
+      "Country": "USA"
     },
     {
       "Id": 8,
       "Name": "Rhonda Byrne",
-      "Country": null,
-      "Books": []
+      "Country": "USA"
     },
     {
       "Id": 9,
       "Name": "Agatha Christie",
-      "Country": null,
-      "Books": []
+      "Country": "USA"
     },
     {
       "Id": 10,
       "Name": "Aldous Huxley",
-      "Country": null,
-      "Books": []
+      "Country": "USA"
     }
   ]
 }
