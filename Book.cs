@@ -10,7 +10,6 @@ namespace libraryManagement
     public string Isbn { get; set; }
     public List<int> Reviews { get; set; } = new List<int>();
 
-
     public Book(int id, string title, string author, string genre, int publicationYear, string isbn)
     {
         Id = id;

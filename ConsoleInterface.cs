@@ -2,7 +2,6 @@ namespace libraryManagement
 {
     // In this class I have created a ConsoleInterface class that contains methods to display a menu and handle user input. 
     //The ConsoleInterface class interacts with the Library class to add, update, and remove books and authors, as well as list all books and authors in the library.
-    
     public class ConsoleInterface
     {
         public Library Library { get; set; }
@@ -43,7 +42,7 @@ namespace libraryManagement
                         ListAllBooksAndAuthors();
                         break;
                     case "8":
-                        // SearchAndFilterBooks();
+                        // SearchAndFilterBooks.SearchAndFilterBooks(Library);
                         Console.WriteLine("Search and filter books are not implemented yet - coming soon...");
                         break;
                     case "9":

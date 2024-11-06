@@ -45,8 +45,7 @@ namespace libraryManagement
             Console.WriteLine("You have exceeded the maximum number of attempts");
         }
 
-
-            public static void UpdateAuthorDetails(Library Library)
+        public static void UpdateAuthorDetails(Library Library)
         {
             Console.Write("Enter author - id - to update: ");
             if (int.TryParse(Console.ReadLine(), out int id))
@@ -77,9 +76,7 @@ namespace libraryManagement
             }
         }
 
-
-
-            public static void RemoveAuthor(Library Library)
+        public static void RemoveAuthor(Library Library)
         {
             const int maxAttempts = 3; 
             int attempts = 0; 

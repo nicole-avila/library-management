@@ -14,8 +14,8 @@
                 Authors = loadedData.AllAuthors
             };
 
-        ConsoleInterface consoleInterface = new ConsoleInterface(library);
-        consoleInterface.Run();
+            ConsoleInterface consoleInterface = new ConsoleInterface(library);
+            consoleInterface.Run();
         }
     }
 }

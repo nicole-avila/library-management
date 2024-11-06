@@ -98,8 +98,6 @@ namespace libraryManagement
             }
         }
 
-
-
         public static void RemoveBook(Library Library)
         {
             const int maxAttempts = 3; 
