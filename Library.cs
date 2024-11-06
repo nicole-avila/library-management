@@ -11,7 +11,6 @@ namespace libraryManagement
     // ALL BOOKS METHODS
     public void AddBook(Book book)
     {
-        book.Id = Books.Count + 1;
         Books.Add(book);
     }
 

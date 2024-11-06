@@ -3,7 +3,7 @@
     // I load the library data from a file using the LoadData method of the HandleLibraryData class. 
     //I then create a new Library object and pass the loaded data to it. 
     //Finally, I create a new ConsoleInterface object and run the console interface.
-    class Program
+    internal class Program
     {
         static void Main(string[] args)
         {
